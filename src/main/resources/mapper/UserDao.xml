@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.vt.dao.UserDao">
+    <resultMap id="BaseResultMap" type="com.vt.entity.User">
+        <result column="username" jdbcType="VARCHAR" property="username" />
+        <result column="password" jdbcType="VARCHAR" property="password" />
+    </resultMap>
+    <insert id="addUser" parameterType="com.vt.entity.User">
+        INSERT INTO mybatis.user(username, password,session)
+        VALUES(#{username},#{password},#{session})
+    </insert>
+    <insert id="addUserS" parameterType="com.vt.entity.User">
+        INSERT INTO mybatis.usersession(username, password,session)
+        VALUES(#{username},#{password},#{session})
+    </insert>
+    <select id="queryByUserName" resultType="com.vt.entity.User">
+        SELECT * FROM mybatis.user WHERE username = #{username}
+    </select >
+    <delete id="deleteSession" parameterType="com.vt.entity.User">
+        DELETE  FROM mybatis.usersession WHERE username = #{username} AND password =#{password} AND session = #{session}
+    </delete>
+</mapper>
+
+

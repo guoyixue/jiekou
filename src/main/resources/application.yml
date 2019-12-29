@@ -1,0 +1,13 @@
+#mybatis:
+#  mapper-locations: classpath:/mapper/*.xml
+#  config-location:  classpath:/sqlMapConfig.xml
+#  type-aliases-package: com.vt.entity
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://127.0.0.1:3306/mybatis?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+    driver-class-name: com.mysql.jdbc.Driver
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
