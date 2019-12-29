@@ -13,7 +13,7 @@ public class UserServiceImpl implements UserService{
     public UserDao userDao;
 
 
-    //在数据库中添加用户
+//    在数据库中添加用户
     @Override
     public int addUser(String username, String password,String session){
         User user = new User(username, password,session);
@@ -21,6 +21,7 @@ public class UserServiceImpl implements UserService{
         return count;
     }
 
+//    在数据库中标记session
     @Override
     public int addUserS(String username, String password, String session) {
         User user = new User(username, password,session);
@@ -28,14 +29,14 @@ public class UserServiceImpl implements UserService{
         return 0;
     }
 
-    //删除session
+//    删除session
     @Override
     public int deleteSession(String username, String password,Object session){
         userDao.deleteSession(username,password,session);
         return 0;
     }
 
-    //根据名字查找用户信息
+//    根据名字查找用户信息
     @Override
     public List<User>queryByName(String username){
         List<User> userList = userDao.queryByName(username);

@@ -1,5 +1,5 @@
 package com.vt.entity;
-
+//返回信息类
 public class Response {
     String msg;
     int code;

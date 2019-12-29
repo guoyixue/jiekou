@@ -1,5 +1,5 @@
 package com.vt.entity;
-
+//用户类
 public class User {
     public String username;
     public String password;
