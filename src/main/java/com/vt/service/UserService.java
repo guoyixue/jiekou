@@ -4,7 +4,6 @@ import com.vt.entity.User;
 import java.util.List;
 
 public interface UserService {
-    int addUser(String username, String password, String session);
+    int addUser(String username, String password);
     List<User>queryByName(String username);
-
 }

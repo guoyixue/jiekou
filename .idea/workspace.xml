@@ -48,13 +48,6 @@
         <item name="mybatis: schema" type="76f4a085:MysqlImplModel$Schema" />
         <item name="user: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="mybatis: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="usersession: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
@@ -157,7 +150,7 @@
       <workItem from="1575974803425" duration="165000" />
       <workItem from="1576035085443" duration="1055000" />
       <workItem from="1577603403573" duration="19000" />
-      <workItem from="1577605830566" duration="7049000" />
+      <workItem from="1577605830566" duration="7655000" />
     </task>
     <task id="LOCAL-00001" summary="追加了注释">
       <created>1577606404059</created>
@@ -166,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577606404060</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="解决了session的bug，修改了登录注销的实现方式">
+      <created>1577613579012</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577613579012</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +185,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="追加了注释" />
-    <option name="LAST_COMMIT_MESSAGE" value="追加了注释" />
+    <MESSAGE value="解决了session的bug，修改了登录注销的实现方式" />
+    <option name="LAST_COMMIT_MESSAGE" value="解决了session的bug，修改了登录注销的实现方式" />
   </component>
 </project>
