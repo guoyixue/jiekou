@@ -6,8 +6,8 @@
         <result column="password" jdbcType="VARCHAR" property="password" />
     </resultMap>
     <insert id="addUser" parameterType="com.vt.entity.User">
-        INSERT INTO mybatis.user(username, password,session)
-        VALUES(#{username},#{password},#{session})
+        INSERT INTO mybatis.user(username, password)
+        VALUES(#{username},#{password})
     </insert>
     <select id="queryByUserName" resultType="com.vt.entity.User">
         SELECT * FROM mybatis.user WHERE username = #{username}
