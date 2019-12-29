@@ -1112,34 +1112,13 @@
       <DefaultForCharset>0</DefaultForCharset>
     </collation>
     <table id="279" parent="3" name="user"/>
-    <table id="280" parent="3" name="usersession"/>
-    <column id="281" parent="279" name="username">
+    <column id="280" parent="279" name="username">
       <Position>1</Position>
       <DataType>varchar(32)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="282" parent="279" name="password">
+    <column id="281" parent="279" name="password">
       <Position>2</Position>
-      <DataType>varchar(32)|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="283" parent="279" name="session">
-      <Position>3</Position>
-      <DataType>varchar(64)|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="284" parent="280" name="username">
-      <Position>1</Position>
-      <DataType>varchar(32)|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="285" parent="280" name="password">
-      <Position>2</Position>
-      <DataType>varchar(32)|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="286" parent="280" name="session">
-      <Position>3</Position>
       <DataType>varchar(32)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>

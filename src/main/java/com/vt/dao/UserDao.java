@@ -12,7 +12,7 @@ public interface UserDao {
     @Insert("INSERT INTO user(username, password,session) VALUES(#{user.username},#{user.password},#{user.session})")
     int addUser(@Param("user") User user);
 //登陆时在数据库写入用户名和密码，标记一个session
-    @Insert("INSERT INTO usersession(username, password,session) VALUES(#{username},#{password},#{session})")
+    @Insert("INSERT INTO usersession(username,password,session) VALUES(#{username},#{password},#{session})")
     int addUserS(@Param("user") User user);
 //在数据库中根据用户名获取用户信息
     @Select("SELECT * FROM user WHERE username = #{username}")

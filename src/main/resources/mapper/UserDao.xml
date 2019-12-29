@@ -9,16 +9,9 @@
         INSERT INTO mybatis.user(username, password,session)
         VALUES(#{username},#{password},#{session})
     </insert>
-    <insert id="addUserS" parameterType="com.vt.entity.User">
-        INSERT INTO mybatis.usersession(username, password,session)
-        VALUES(#{username},#{password},#{session})
-    </insert>
     <select id="queryByUserName" resultType="com.vt.entity.User">
         SELECT * FROM mybatis.user WHERE username = #{username}
     </select >
-    <delete id="deleteSession" parameterType="com.vt.entity.User">
-        DELETE  FROM mybatis.usersession WHERE username = #{username} AND password =#{password} AND session = #{session}
-    </delete>
 </mapper>
 
 

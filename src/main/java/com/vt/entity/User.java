@@ -3,13 +3,10 @@ package com.vt.entity;
 public class User {
     public String username;
     public String password;
-    public String session;
 
-    public User(String username, String password, Object session){}
-    public User(String username, String password,String session){
+    public User(String username, String password){
         this.username = username;
         this.password = password;
-        this.session =session;
     }
 
     public String getUsername() {
@@ -23,12 +20,6 @@ public class User {
     }
     public void setPassword(String password) {
         this.password = password;
-    }
-    public String getSession() {
-        return session;
-    }
-    public void setSession(String session) {
-        this.session = session;
     }
 }
 

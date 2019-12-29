@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d0fe0cc-8999-4ea3-89c9-93cbe4380bb6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vt/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vt/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/vt/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vt/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vt/entity/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vt/entity/Response.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/vt/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vt/entity/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/vt/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vt/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/vt/service/UserServiceImpl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vt/service/UserServiceImpl/UserServiceImpl.java" afterDir="false" />
     </list>
@@ -157,8 +157,16 @@
       <workItem from="1575974803425" duration="165000" />
       <workItem from="1576035085443" duration="1055000" />
       <workItem from="1577603403573" duration="19000" />
-      <workItem from="1577605830566" duration="446000" />
+      <workItem from="1577605830566" duration="7049000" />
     </task>
+    <task id="LOCAL-00001" summary="追加了注释">
+      <created>1577606404059</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577606404060</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,5 +182,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="追加了注释" />
+    <option name="LAST_COMMIT_MESSAGE" value="追加了注释" />
   </component>
 </project>
